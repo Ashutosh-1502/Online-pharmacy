@@ -374,9 +374,10 @@ footer{
     background-size: cover;
 }
 
-#facilities{
-    transition: all 3s ease-in-out;
+.medicine{
+    transition: all 3s ease-in-out !important;
 }
+
 .shop-button{
     transition: all 0.2s linear;
 }
