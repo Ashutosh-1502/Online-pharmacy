@@ -6,7 +6,7 @@ const form = document.querySelector('form');
 
 window.addEventListener('DOMContentLoaded', function () {
     const slideContainer = document.querySelector('.container');
-    slideContainer.classList.add('login-container');
+    slideContainer.style.opacity = '1';
 });
 
 password.addEventListener('input', function () {

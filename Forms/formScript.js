@@ -99,7 +99,6 @@ function validatePassword() {
     const errorPassword = document.querySelector('.error-password');
     const passwordIcon = document.querySelector('#password+span');
     let passwordValue = password.value;
-    const pattern = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8}$/;
     if (passwordValue.length === 0) {
         password.style.borderColor = 'red';
         errorPassword.innerHTML = 'Field cannot be Empty';
@@ -109,7 +108,7 @@ function validatePassword() {
         passwordIcon.style.color = 'red';
         return false;
     }
-    if (!passwordValue.match(pattern)) {
+    if (!passwordValue.length < 7) {
         password.style.borderColor = 'yellow';
         errorPassword.innerHTML = 'Password is Weak';
         passwordIcon.innerHTML = '<i class="bi bi-exclamation-circle-fill"></i>';
