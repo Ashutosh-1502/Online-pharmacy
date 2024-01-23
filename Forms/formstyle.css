@@ -192,7 +192,7 @@
 
     25% {
         opacity: 0.3;
-        transform: translateX(15%);
+        transform: translateX(20%);
     }
 
     50% {
@@ -454,65 +454,13 @@ form span {
 
 
 .slide-1 {
-    animation: slideLeft 3s linear;
+    opacity: 0;
+    transition: all 4.5s ease-in-out;
 }
 
 .slide-2 {
-    animation: slideRight 3s linear;
-}
-
-@keyframes slideLeft {
-    0% {
-        opacity: 0;
-        transform: translateX(-30%);
-    }
-
-    25% {
-        opacity: 0.3;
-        transform: translateX(20%);
-    }
-
-    50% {
-        opacity: 0.6;
-        transform: translateX(10%);
-    }
-
-    75% {
-        opacity: 0.8;
-        transform: translateX(5%);
-    }
-
-    100% {
-        opacity: 1;
-        transform: translateX(0%);
-    }
-}
-
-@keyframes slideRight {
-    0% {
-        opacity: 0;
-        transform: translateX(30%);
-    }
-
-    25% {
-        opacity: 0.3;
-        transform: translateX(-20%);
-    }
-
-    50% {
-        opacity: 0.6;
-        transform: translateX(-10%);
-    }
-
-    75% {
-        opacity: 0.8;
-        transform: translateX(-5%);
-    }
-
-    100% {
-        opacity: 1;
-        transform: translateX(0%);
-    }
+    opacity: 0;
+    transition: all 4.5s ease-in-out;
 }
 
 /* Payment Page */

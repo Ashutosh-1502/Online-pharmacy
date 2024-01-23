@@ -8,10 +8,10 @@ const main = document.querySelector('main');
 
 
 window.addEventListener('DOMContentLoaded', function () {
-    const info = document.querySelector('.info');
-    const register = document.querySelector('.Register');
-    info.classList.add('slide-1');
-    register.classList.add('slide-2');
+    const slide1 = document.querySelector('.slide-1');
+    const slide2 = document.querySelector('.slide-2');
+    slide1.style.opacity = '1';
+    slide2.style.opacity = '1';
 });
 
 function validateFirst() {
