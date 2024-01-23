@@ -223,11 +223,9 @@ main {
 .account {
     text-align: center;
     color: white;
-    /* margin-bottom: 1em; */
 }
 
 .toc {
-    /* padding-top: 0.4em; */
     margin-left: 1em;
     color: white;
 
@@ -255,9 +253,8 @@ form .first-name,
 
 form span {
     position: absolute;
-    top: 30%;
+    top: 18%;
     right: 10px;
-    transform: translateY(-50%);
 }
 
 .first-name input,

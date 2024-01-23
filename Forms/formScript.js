@@ -108,7 +108,7 @@ function validatePassword() {
         passwordIcon.style.color = 'red';
         return false;
     }
-    if (!passwordValue.length < 7) {
+    if (passwordValue.length < 7) {
         password.style.borderColor = 'yellow';
         errorPassword.innerHTML = 'Password is Weak';
         passwordIcon.innerHTML = '<i class="bi bi-exclamation-circle-fill"></i>';
